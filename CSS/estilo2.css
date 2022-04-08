@@ -2,8 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-section{
-    
+section{   
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -102,6 +101,7 @@ button{
     margin-top: 50px;
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 
 
