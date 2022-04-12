@@ -9,19 +9,20 @@
 </head>
 <body>
     <section>
-        <B><FONT COLOR="red"></FONT>
-        <hr>
         <div id="clockdate">
             <div class="clockdate-wrapper">
-                <div class="reloj" id="Horas">00</div>
-                <div class="reloj" id="Minutos">:00</div>
-                <div class="reloj" id="Segundos">:00</div>
-                <div class="reloj" id="Centesimas">:00</div>
-                <input type="button" value="">
-                <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
-                <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled> <br>
-                <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
-                <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>    
+                <div class="tiempos">
+                    <div class="reloj" id="Horas">00</div>
+                    <div class="reloj" id="Minutos">:00</div>
+                    <div class="reloj" id="Segundos">:00</div>
+                    <div class="reloj" id="Centesimas">:00</div>
+                </div>
+                <div class="obciones">
+                    <input type="button" class="boton" id="inicio" value="Inicio &#9658;">
+                    <input type="button" class="boton" id="parar" style="display: none;" value="Parar &#8718;">
+                    <input type="button" class="boton" id="continuar" style="display: none;" value="Continuar &#9658;">
+                    <input type="button" class="boton" id="reinicio" style="display: none;" value="Reiniciar &#8635;"> 
+                </div>   
             </div>
         </div>
 

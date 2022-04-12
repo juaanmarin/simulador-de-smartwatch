@@ -23,7 +23,7 @@ function iniciar() {
     let añoActual = hoy.getFullYear();
     let fechaHoy = hoy.getDate();
     let fecha =`${diaActual}, ${fechaHoy} ${mesActual} ${añoActual}`;
-    document.getElementById("date").innerHTML = fecha;  
+    document.getElementById("FECHA").innerHTML = fecha;  
 }
 
 /*esta funcion permite que si el numero i es menor a 10, se le contatena un cero a la izquierda de lo cotrario no se hace nada */
